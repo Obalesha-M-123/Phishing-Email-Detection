@@ -1,39 +1,101 @@
-# Phishing Email Detection System
+ # 🔐 Phishing Email Detection System
 
-An AI-based Phishing Email Detection System built using Python and Machine Learning.
+An AI-powered Phishing Email Detection System built using Python and Machine Learning.
 
-## Features
-- Phishing and Safe Email Classification
-- Suspicious Keyword Detection
-- Suspicious URL Detection
-- Professional GUI Dashboard
-- Risk Level Indicator
-- Email Scan Statistics
-- Pie Chart Visualization
+## 📌 About the Project
 
-## Technologies Used
+This project analyzes email messages and identifies potentially phishing emails using Machine Learning and suspicious pattern detection.
+
+It provides a simple graphical user interface (GUI) to scan emails and display risk information.
+
+## ✨ Features
+
+- Email scanning through GUI
+- Phishing and Safe email classification
+- Suspicious keyword detection
+- Suspicious URL detection
+- Risk level indicator
+- Total scanned email dashboard
+- Phishing vs Safe statistics
+- Clear and user-friendly interface
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
 - Tkinter
+- Machine Learning (TF-IDF and Naive Bayes)
 
-## Installation
+## 📂 Project Structure
 
-Install the required libraries:
+```text
+Phishing-Email-Detection/
+│
+├── emails.csv
+├── train_model.py
+├── predict_email.py
+├── evaluate_model.py
+├── phishing_detector.py
+├── main.py
+├── gui.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Obalesha-M-123/Phishing-Email-Detection.git
+```
+
+2. Open the project folder:
+
+```bash
+cd Phishing-Email-Detection
+```
+
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the Project
+## ▶️ Run the Application
 
 ```bash
 python gui.py
 ```
 
-## Project Type
-Machine Learning / Cybersecurity
+## 🧪 Model Evaluation
 
-## Author
-Obalesh
+The project includes a model evaluation script:
+
+```bash
+python evaluate_model.py
+```
+
+The current sample dataset is small, so evaluation results are preliminary and should not be treated as real-world accuracy.
+
+## 🚀 Future Improvements
+
+- Use a larger real-world email dataset
+- Improve model performance
+- Add email file upload support
+- Add detailed scan history
+- Deploy as a web application
+
+## 👨‍💻 Developer
+
+**Obalesha M**
+
+GitHub: [Obalesha-M-123](https://github.com/Obalesha-M-123)
+
+## ⚠️ Disclaimer
+
+This project is an educational prototype. Its predictions are not a guarantee that an email is safe or malicious.
