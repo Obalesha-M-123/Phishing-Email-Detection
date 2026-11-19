@@ -1,0 +1,18 @@
+
+email_text,label
+"Congratulations! You won a free prize. Click this link now",Phishing
+"Your bank account is blocked. Verify your password immediately",Phishing
+"Urgent! Update your account details to avoid suspension",Phishing
+"You have won a lottery. Claim your reward now",Phishing
+"Click here to confirm your account and receive your gift",Phishing
+"Your account has suspicious activity. Verify your login",Phishing
+"Send your password to unlock your account",Phishing
+"Limited offer! Claim your free gift today",Phishing
+"Please find the meeting agenda attached for tomorrow",Safe
+"Your college assignment submission is due on Monday",Safe
+"Thank you for attending our meeting today",Safe
+"Your monthly electricity bill is ready to view",Safe
+"Please review the project report and share feedback",Safe
+"Your order has been shipped and will arrive tomorrow",Safe
+"Reminder: Your appointment is scheduled for 10 AM",Safe
+"Here are the notes from yesterday's discussion",Safe
